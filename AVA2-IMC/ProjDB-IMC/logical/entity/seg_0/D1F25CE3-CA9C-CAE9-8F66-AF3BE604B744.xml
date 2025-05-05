@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1F25CE3-CA9C-CAE9-8F66-AF3BE604B744" name="imcHistoricoPessoa">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-07 23:44:02 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedidaImc" id="24EC31E3-F578-8564-90A0-D1C95365CF26">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-07 23:44:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="84B9408A-554A-DA30-81A9-A309E1AC43D0">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 22:41:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoPessoa" id="FDD64C21-9E61-F374-5428-D008EDE6EE56">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-07 23:44:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaPessoa" id="764F6824-FF27-E388-EF45-9C9D9E989621">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-07 23:44:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrImcPessoa" id="67C52878-A056-24CD-0AB6-B584844A8811">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 22:33:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPessoa" id="5A0438C7-8AFA-B288-F127-0BC5C9B39ED4">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 22:33:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="89121F93-C5FF-DE17-9F60-BA6AA38211A4">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 22:52:20 UTC</createdTime>
+<generatorID>A49A516D-12BF-76C0-C818-802DE911F6D3</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A5B3CA7-6304-03F7-932F-D658EE92909C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5A89721-C48F-2D3B-D0C9-56322A7BDA3B" name="imcHistoricoPessoa_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 22:35:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24EC31E3-F578-8564-90A0-D1C95365CF26</attributeRef>
+<attributeRef>84B9408A-554A-DA30-81A9-A309E1AC43D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

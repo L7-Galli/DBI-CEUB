@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ClienteNormalizacao" id="B664B966-7A8C-D370-323E-B8DC9D5ADC7A" version="3.5">
+<createdBy>denys</createdBy>
+<createdTime>2025-04-13 15:13:15 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B664B966-7A8C-D370-323E-B8DC9D5ADC7A</designId>
+</OSDM_Design>

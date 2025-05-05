@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dmd_exports>
+	<dmd_export name="MormalizaçãoClientePedidos" description="" id="ED47D126-3B02-3793-37BA-BA0756A081D6" design="B664B966-7A8C-D370-323E-B8DC9D5ADC7A">
+		<models>
+			<model id="F2F980A4-2D59-5C52-DE58-D1B06D44C1EF" />
+		</models>
+	</dmd_export>
+</dmd_exports>

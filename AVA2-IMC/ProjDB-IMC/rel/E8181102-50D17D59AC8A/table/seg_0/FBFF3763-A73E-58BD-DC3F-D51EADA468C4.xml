@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBFF3763-A73E-58BD-DC3F-D51EADA468C4" name="Pessoa">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>5CFF7AB1-3B2B-1C33-1194-1F9141DB7009</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="43DD5533-7DC7-83E3-8360-981BE23091F9">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>6A5B3CA7-6304-03F7-932F-D658EE92909C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="AB0EB935-40C1-6CD5-35A3-2DB1A791CFF9">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>1734A30C-53B1-B431-9E9D-91A06E366AFF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexoPessoa" id="35E68D7D-0011-98B1-1E62-72F2E2E54FD8">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-29 00:25:59 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78CC04A0-AFE7-F316-BEF5-C01D86E41C36" name="Pessoa_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>70E8D229-0C85-88A2-08FF-8AD694593E28</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43DD5533-7DC7-83E3-8360-981BE23091F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

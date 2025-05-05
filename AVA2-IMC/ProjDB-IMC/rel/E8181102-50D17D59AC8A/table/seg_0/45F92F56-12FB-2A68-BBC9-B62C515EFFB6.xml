@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F92F56-12FB-2A68-BBC9-B62C515EFFB6" name="logSeguranca">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-29 00:36:57 UTC</createdTime>
+<generatorID>03175B50-9EE1-095F-C650-C3C0B5B9C113</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="EB5D135E-13C3-20BE-1FF9-87C355E1C8F6">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-29 00:36:57 UTC</createdTime>
+<generatorID>52D444EE-1668-F566-B09E-9DC6E0FD318A</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataLog" id="9442BBD6-2652-0E66-9B64-66531E9A6F6D">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-29 00:36:57 UTC</createdTime>
+<generatorID>266C1A02-FBFD-DB61-6758-893FA738153C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operacao" id="F69BA142-9B2F-AEAA-5414-7B12D48D4E05">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-29 00:36:57 UTC</createdTime>
+<generatorID>3D515522-C223-6289-1134-A9CB7CBD14D4</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

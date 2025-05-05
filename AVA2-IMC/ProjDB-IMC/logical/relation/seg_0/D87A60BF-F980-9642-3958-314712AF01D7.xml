@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Um pra muito" directorySegmentName="seg_0" id="D87A60BF-F980-9642-3958-314712AF01D7">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-07 23:46:27 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E8181102-8581-1449-14E9-50D17D59AC8A" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1F25CE3-CA9C-CAE9-8F66-AF3BE604B744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5CFF7AB1-3B2B-1C33-1194-1F9141DB7009</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

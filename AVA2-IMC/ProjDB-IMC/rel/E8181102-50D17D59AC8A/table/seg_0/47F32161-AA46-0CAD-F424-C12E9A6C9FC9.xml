@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47F32161-AA46-0CAD-F424-C12E9A6C9FC9" name="imcHistoricoPessoa">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>D1F25CE3-CA9C-CAE9-8F66-AF3BE604B744</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedidaImc" id="EB645F05-4E19-F8B1-24EE-7D6643447A34">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>24EC31E3-F578-8564-90A0-D1C95365CF26</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="1D53039F-3CCF-9114-46D4-D5436798781E">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>84B9408A-554A-DA30-81A9-A309E1AC43D0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoPessoa" id="97FAD56C-82A2-3304-A58A-EE1CC74588FB">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>FDD64C21-9E61-F374-5428-D008EDE6EE56</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaPessoa" id="BA645E83-18B3-8D13-B15A-6E07F7909FBE">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>764F6824-FF27-E388-EF45-9C9D9E989621</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrImcPessoa" id="C84565C2-FD59-1C77-6BCE-8B98A1FF2ABE">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>67C52878-A056-24CD-0AB6-B584844A8811</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseImcPessoa" id="3EE92576-8412-0389-012B-A272FB3644FF">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>5A0438C7-8AFA-B288-F127-0BC5C9B39ED4</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa1" id="75F85BA3-A7E2-17DE-477D-CC2F1C0647AC">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>89121F93-C5FF-DE17-9F60-BA6AA38211A4</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D8542AB-CF65-A22B-00C9-0F17F1014E6E" referredColumn="43DD5533-7DC7-83E3-8360-981BE23091F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5E2E8A5-0458-948B-A4E9-EB12FDC70BAE" name="imcHistoricoPessoa_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>C5A89721-C48F-2D3B-D0C9-56322A7BDA3B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB645F05-4E19-F8B1-24EE-7D6643447A34"/>
+<colUsage columnID="1D53039F-3CCF-9114-46D4-D5436798781E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4BBC24-4E67-66D7-B729-0690C31D5F18" name="Calcula">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-04-28 23:42:43 UTC</createdTime>
+<generatorID>A49A516D-12BF-76C0-C818-802DE911F6D3</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75F85BA3-A7E2-17DE-477D-CC2F1C0647AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
