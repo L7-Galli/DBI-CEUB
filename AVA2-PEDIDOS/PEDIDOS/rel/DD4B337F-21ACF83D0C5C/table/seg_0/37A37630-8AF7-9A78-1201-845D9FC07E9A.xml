@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37A37630-8AF7-9A78-1201-845D9FC07E9A" name="vendedor">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>4EF5328B-BBC3-610A-93CE-CB59FAFA1744</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="4333816D-1D5D-6010-6DC9-3D621739BEB5">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>37BBB611-9F57-09BD-2EAA-116E4A76C951</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="AF9A0F99-111C-9442-F7D9-21FB2E0A85BA">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>9D2F95DD-62B3-530D-492B-6D4BED2A6303</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39F5AE1F-E3BF-C5B8-A7C9-EBD4BA6077E0" name="vendedor_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>417857F4-7E1A-76F6-209B-B35788B21776</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9A0F99-111C-9442-F7D9-21FB2E0A85BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

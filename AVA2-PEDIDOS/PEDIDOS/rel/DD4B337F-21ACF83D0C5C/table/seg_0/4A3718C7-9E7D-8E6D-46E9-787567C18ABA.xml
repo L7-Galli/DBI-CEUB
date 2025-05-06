@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A3718C7-9E7D-8E6D-46E9-787567C18ABA" name="pedido">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>0639F932-42D6-8B77-F3FA-DC4FAD4054A5</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificaçãoPedido" id="4C52A974-58E5-F997-3C78-9E25445586F3">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>A81A7735-3ECC-177D-2BD8-E71C7899937A</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="2CA491A1-1E39-35A5-CCA8-1B604343D2FB">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>16F7C143-FA50-C7EE-57DE-711A72DDE59E</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotal" id="F4CBE721-9800-5D69-5613-489A2CC0161C">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>B28EBB5B-C5ED-5C3A-72AA-E9F091DCC8F8</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000000000000000</dataTypeSize>
+<ownDataTypeParameters>10000000000000000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="22A9B2E2-0F55-1D96-F7C1-E84E8A223287">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>F61715F7-6B50-0C88-FDB3-21120321F182</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="0796ECD4-E8C9-7D4C-6C25-DE76BF809F53">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>AF8B611F-E7F4-7EA2-3CA7-949A9D59447B</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B943F40-B82D-2BD8-09D6-FC3EA927077D" referredColumn="AF9A0F99-111C-9442-F7D9-21FB2E0A85BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4887A825-3C75-F043-DD01-2057DBA3235B" name="pedido_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>BC4D85BF-9990-0C36-46F1-164C5ECCC707</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C52A974-58E5-F997-3C78-9E25445586F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86DB82DC-D852-3D3A-6A0C-DF81763DF2C0" name="Relation_4">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>6B3D8C46-5D7B-4E70-DAF3-FD864F1FF2D5</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0796ECD4-E8C9-7D4C-6C25-DE76BF809F53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

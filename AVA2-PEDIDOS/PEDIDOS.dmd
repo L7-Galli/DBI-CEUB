@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PEDIDOS" id="DAC9376C-ECD1-D892-32AD-587EECF3F02B" version="3.5">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:09:40 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DAC9376C-ECD1-D892-32AD-587EECF3F02B</designId>
+</OSDM_Design>

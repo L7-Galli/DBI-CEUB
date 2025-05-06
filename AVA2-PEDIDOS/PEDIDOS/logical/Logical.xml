@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6A29B122-3E55-001F-9524-04D2D1E5ED47" mainViewID="B98AAA2B-7185-03C8-8C52-FC909D2A23B2">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:09:40 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D442F76-4AD1-C34F-168F-609B9E7EDF3D" name="produto">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>B4B7EE3C-D3D0-4875-D77E-41F228F7180F</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codProduto" id="C01506DD-AE96-D000-6A5C-FB809DEF6059">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>649C840B-41B8-FC6B-5364-3DB6D68198C7</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriçãoProduto" id="21906AE8-6B32-04D4-11F6-043C6B01BAC3">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>466F4328-EFD3-6A9D-0A43-B8ADEDC1CBF7</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadePedida" id="6AAC9235-0AE8-C53A-623F-1EDA66C4FACE">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>5F31A886-8B1C-D94C-1CFC-B311E9104ADA</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="78DC9311-5231-B935-6BC7-02AC40DA22EF">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>0AEB951C-E4DD-1F70-F6A1-27254B5316A8</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000000000000000</dataTypeSize>
+<ownDataTypeParameters>10000000000000000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="194D0DAE-8C34-3244-535B-1391054BEC42" name="itensPedido_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>2C753B09-8DEF-FE39-42B6-F888DCE573A0</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C01506DD-AE96-D000-6A5C-FB809DEF6059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

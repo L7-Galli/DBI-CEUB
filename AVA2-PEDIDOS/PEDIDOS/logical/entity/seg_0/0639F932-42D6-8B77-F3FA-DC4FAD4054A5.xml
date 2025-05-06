@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0639F932-42D6-8B77-F3FA-DC4FAD4054A5" name="pedido">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:17:40 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificaçãoPedido" id="A81A7735-3ECC-177D-2BD8-E71C7899937A">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:19:19 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="16F7C143-FA50-C7EE-57DE-711A72DDE59E">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:20:09 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotal" id="B28EBB5B-C5ED-5C3A-72AA-E9F091DCC8F8">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:21:19 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000000000000000</dataTypeSize>
+<ownDataTypeParameters>10000000000000000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="F61715F7-6B50-0C88-FDB3-21120321F182">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:49:13 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="AF8B611F-E7F4-7EA2-3CA7-949A9D59447B">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:55:16 UTC</createdTime>
+<generatorID>6B3D8C46-5D7B-4E70-DAF3-FD864F1FF2D5</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9D2F95DD-62B3-530D-492B-6D4BED2A6303</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC4D85BF-9990-0C36-46F1-164C5ECCC707" name="pedido PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:45:32 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A81A7735-3ECC-177D-2BD8-E71C7899937A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

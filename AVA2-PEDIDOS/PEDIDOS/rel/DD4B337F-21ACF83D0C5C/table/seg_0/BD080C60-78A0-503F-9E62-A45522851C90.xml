@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD080C60-78A0-503F-9E62-A45522851C90" name="Pode_ter">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pedido_identificaçãoPedido" id="EE3CF3C3-8114-2C4C-2300-47E615EE3B22">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70F1C2CD-D2BB-FA56-B5F7-F59BE3BF444E" referredColumn="4C52A974-58E5-F997-3C78-9E25445586F3"/>
+</associations>
+</Column>
+<Column name="produto_codProduto" id="8C01D6CB-25AC-31D9-0C87-555DB4EE434C">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FC0436E-F4ED-D782-1FD9-8892480FAECC" referredColumn="C01506DD-AE96-D000-6A5C-FB809DEF6059"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C686FE3C-6FC0-557C-0134-C9CFD6A3EC64" name="Pode_ter_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE3CF3C3-8114-2C4C-2300-47E615EE3B22"/>
+<colUsage columnID="8C01D6CB-25AC-31D9-0C87-555DB4EE434C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D6B2B1-6436-0D7D-89A1-EFB172131056" name="Pode_ter_pedido_FK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>2C915334-D124-ABE6-1B47-9BF30B489AF3</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE3CF3C3-8114-2C4C-2300-47E615EE3B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C922F60-8662-34FE-6428-473E1836DA15" name="Pode_ter_produto_FK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>2C915334-D124-ABE6-1B47-9BF30B489AF3</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C01D6CB-25AC-31D9-0C87-555DB4EE434C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

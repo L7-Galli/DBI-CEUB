@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BEAA6C9-7AF1-A9ED-326C-61DA87D36FCD" name="cliente">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:23:47 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="7FC7ADAD-C5B7-4360-16C3-1DAC96ADCD45">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:24:02 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="B54F5FFC-1CCF-63B2-143A-1792E605E840">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:24:12 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="BF0892BC-5097-FD23-B22F-61D7B6BAC9EA">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:24:32 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="4DD08D0C-27AB-0D7E-12FC-7A872EF8B4BF">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:25:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificaçãoPedido" id="231B8647-414C-EA7B-E9AC-D13AE7C30DF1">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:54:31 UTC</createdTime>
+<generatorID>2DFEF12C-EAA7-281D-4771-82EECBD2385C</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<referedAttribute>A81A7735-3ECC-177D-2BD8-E71C7899937A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06BD44C0-16CD-0E1C-D8DC-DD11E793B9C1" name="cliente PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:47:46 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="DD4B337F-9D23-C015-F120-21ACF83D0C5C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B54F5FFC-1CCF-63B2-143A-1792E605E840</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

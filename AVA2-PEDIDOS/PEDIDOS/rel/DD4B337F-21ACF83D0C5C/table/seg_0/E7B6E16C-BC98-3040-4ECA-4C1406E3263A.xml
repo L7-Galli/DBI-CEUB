@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7B6E16C-BC98-3040-4ECA-4C1406E3263A" name="cliente">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>1BEAA6C9-7AF1-A9ED-326C-61DA87D36FCD</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="0A921534-77BE-3B9A-B86D-A71B333934E4">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>7FC7ADAD-C5B7-4360-16C3-1DAC96ADCD45</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="59B1F8F4-B38F-A382-BFAD-E54502ABE729">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>B54F5FFC-1CCF-63B2-143A-1792E605E840</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="8CCE8D4D-D0DF-8566-06A2-7F693EC4F3E1">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>BF0892BC-5097-FD23-B22F-61D7B6BAC9EA</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="775A4136-6F17-91F5-24C3-AE45316CB68C">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>4DD08D0C-27AB-0D7E-12FC-7A872EF8B4BF</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificaçãoPedido" id="00FB1E26-CB91-1603-EF16-4561FA5800D3">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>231B8647-414C-EA7B-E9AC-D13AE7C30DF1</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31562196-B61D-33CB-DF7A-0108F74B7E72" referredColumn="4C52A974-58E5-F997-3C78-9E25445586F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A13305F-1A15-127F-73C0-9BC976E23FE2" name="cliente_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>06BD44C0-16CD-0E1C-D8DC-DD11E793B9C1</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B1F8F4-B38F-A382-BFAD-E54502ABE729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09C9117B-201E-B249-5B5E-DA8322DD06DF" name="cliente__IDX">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2DFEF12C-EAA7-281D-4771-82EECBD2385C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="00FB1E26-CB91-1603-EF16-4561FA5800D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="714E79FD-31C1-1F84-6966-E400DB1A2779" name="Tem">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-05 23:58:06 UTC</createdTime>
+<generatorID>2DFEF12C-EAA7-281D-4771-82EECBD2385C</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00FB1E26-CB91-1603-EF16-4561FA5800D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
