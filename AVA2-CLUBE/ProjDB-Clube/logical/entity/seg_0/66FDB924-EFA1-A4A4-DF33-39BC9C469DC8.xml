@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66FDB924-EFA1-A4A4-DF33-39BC9C469DC8" name="titular">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:08:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="F489B7B8-C451-E171-A137-0DB736D0D610">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:08:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="4225B453-62A4-5D8A-EB22-9CF0DB46F613">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:11:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoTitular" id="FB72499F-082B-3270-2184-2EA1963770AA">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:11:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="C039AD04-A1EC-FD89-A11B-7D48356BBE2F">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:23:57 UTC</createdTime>
+<generatorID>11826B25-9282-A9C7-FABB-8F6CBBAA9D79</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<referedAttribute>564B97D5-EAE2-DB03-44EE-2F89F29AF1E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tratamentoCliente" id="2E49B635-8156-8000-7CF4-81B51BD7A7E0">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:31:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoTitular" id="B1D11FBA-66BE-4D96-0374-CDB6C3C41F1E">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-20 00:25:10 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>11826B25-9282-A9C7-FABB-8F6CBBAA9D79</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<referedAttribute>5E5E3E06-5FE1-7C6A-5D70-975CB9E2C024</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AAE3D25-472B-C31E-8BEF-EE23D080016A" name="titular PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:24:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F489B7B8-C451-E171-A137-0DB736D0D610</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

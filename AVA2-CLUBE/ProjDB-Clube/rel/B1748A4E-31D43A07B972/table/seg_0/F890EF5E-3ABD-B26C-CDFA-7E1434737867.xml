@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F890EF5E-3ABD-B26C-CDFA-7E1434737867" name="dependente">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>F405ED9B-29B3-235D-24C4-32C06C5F02E3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="80C87C41-5787-E1E6-F71D-6B58938E265A">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>6460C62F-4092-7F99-01DC-21C62F94BA58</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular" id="A62C3CC2-12DA-F16E-7B7F-F9BEAB3A2DB5">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>D049B5EF-E61C-5767-4EED-14790E306F67</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomedependente" id="FC3F2055-C4C0-2B71-9C38-F4C3337CBB3B">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>7AD95BD6-0186-58A0-3BF1-80174AEFE7C7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauDependete" id="AC5EEC00-7329-BDEA-946B-4800C6A68BC6">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>1321916F-9418-3EE9-5EC9-5D703B33643B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoDependente" id="15E9D808-ADA7-9921-65F1-1C6CE271CFC1">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>BE331F61-8ED0-E62A-6DF0-2E441BCA462B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular1" id="ACDAD30C-7871-88B1-FCD6-E173AB856D58">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>E2A62671-3136-53E5-133F-1DEDF76B14ED</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF59A20-361C-D7D7-A61E-9A05BE325C3B" referredColumn="BDF743F0-A711-29F3-BC72-3D068E7DCAE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E835439E-6158-0DE6-9CCF-68246FD325E4" name="dependente_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>BD72A3E2-2C8C-3989-C151-4D860A5396E9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80C87C41-5787-E1E6-F71D-6B58938E265A"/>
+<colUsage columnID="ACDAD30C-7871-88B1-FCD6-E173AB856D58"/>
+<colUsage columnID="A62C3CC2-12DA-F16E-7B7F-F9BEAB3A2DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C8DC0A9-C6B0-22B5-7A0F-21896407CE11" name="Relation_5">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>CDAB79BF-4756-7093-5E82-DE382BA874B9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACDAD30C-7871-88B1-FCD6-E173AB856D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
