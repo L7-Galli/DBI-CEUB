@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26B1C391-9082-B806-A8F1-38110BE67C0A" name="emailTitular">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:59:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="DCC153AF-92FD-E5B5-ABA3-AEE01DA88B1D">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:59:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>DDA60FC5-DDBE-801E-432A-3FA97C4C799A</importedID>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailCliente" id="09F0D03F-592A-C8D5-8BBF-8611F6A2EC13">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:59:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>EDD60DE7-E8D6-C280-69F5-304FD6F25749</importedID>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="1B31FA9C-2063-D3D4-86E5-A48BF78879D1">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-20 00:00:31 UTC</createdTime>
+<generatorID>DECE97FC-5A05-2AA1-8A62-4623A68D177C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<referedAttribute>F489B7B8-C451-E171-A137-0DB736D0D610</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95EDA593-58C8-EB4D-565A-5DC3AD452076" name="EmailCliente PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:59:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCC153AF-92FD-E5B5-ABA3-AEE01DA88B1D</attributeRef>
+<attributeRef>09F0D03F-592A-C8D5-8BBF-8611F6A2EC13</attributeRef>
+<attributeRef>1B31FA9C-2063-D3D4-86E5-A48BF78879D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

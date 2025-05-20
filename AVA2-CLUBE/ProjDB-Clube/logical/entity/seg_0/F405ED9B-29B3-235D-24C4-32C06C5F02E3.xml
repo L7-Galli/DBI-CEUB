@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F405ED9B-29B3-235D-24C4-32C06C5F02E3" name="dependente">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:16:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="6460C62F-4092-7F99-01DC-21C62F94BA58">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:16:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="D049B5EF-E61C-5767-4EED-14790E306F67">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:40:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomedependente" id="7AD95BD6-0186-58A0-3BF1-80174AEFE7C7">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:17:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauDependete" id="1321916F-9418-3EE9-5EC9-5D703B33643B">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:18:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependente" id="BE331F61-8ED0-E62A-6DF0-2E441BCA462B">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:20:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="E2A62671-3136-53E5-133F-1DEDF76B14ED">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:25:00 UTC</createdTime>
+<generatorID>CDAB79BF-4756-7093-5E82-DE382BA874B9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="true"/>
+</engineerTo>
+<referedAttribute>F489B7B8-C451-E171-A137-0DB736D0D610</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD72A3E2-2C8C-3989-C151-4D860A5396E9" name="dependente PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:16:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B1748A4E-A487-D1AA-4BC7-31D43A07B972" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6460C62F-4092-7F99-01DC-21C62F94BA58</attributeRef>
+<attributeRef>E2A62671-3136-53E5-133F-1DEDF76B14ED</attributeRef>
+<attributeRef>D049B5EF-E61C-5767-4EED-14790E306F67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

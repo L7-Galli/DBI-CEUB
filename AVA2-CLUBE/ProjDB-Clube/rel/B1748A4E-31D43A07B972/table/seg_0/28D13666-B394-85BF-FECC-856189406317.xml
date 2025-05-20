@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28D13666-B394-85BF-FECC-856189406317" name="EnderecoTitularDependente">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>969C9A6B-1437-8881-85B5-66AF3AC30B4F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="A7AC5348-C3E4-C8A4-AE84-2120EF4DB5EA">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>564B97D5-EAE2-DB03-44EE-2F89F29AF1E4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoTitular" id="2655401F-FF90-C38A-9F99-6C4773B39406">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>3842C56E-EF8A-3E44-AC79-5591434FD652</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoTitular" id="044C579B-B3B0-4E27-8983-208AABD80FE7">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<generatorID>E31491F7-AA51-4A49-7DE8-AC399F745C63</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoTitular" id="C1BD008F-4C79-9D88-FFCD-BC6FA93E9F1D">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>BC427C06-44B8-B266-7914-811051388C09</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoTitular" id="5A6AA533-8763-D941-0C7D-ED4B27CBC1FF">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>E482554D-5745-2DD3-8123-DA4C11EEF7E4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoTitular" id="39DB3BC2-0CA6-90B7-6146-DBA7C5E43742">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>AB05AD19-E230-CA7C-50D7-4147D9A5739C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoTitular" id="96AE5E13-334A-3FB1-CB37-AB7D0F74048B">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>5E5E3E06-5FE1-7C6A-5D70-975CB9E2C024</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titular_cpfTitular" id="0A589C6C-C26F-0862-29E6-AC8CBB1C0AA2">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>7EBBA34D-6A3D-81B2-DEED-698EF468FE1C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D78131C2-AA18-5B52-7166-2AE70AE29615" referredColumn="ACDAD30C-7871-88B1-FCD6-E173AB856D58"/>
+<colAssociation fkAssociation="567DAB1E-E3E3-1C9A-CD11-ADEF6595E301" referredColumn="BDF743F0-A711-29F3-BC72-3D068E7DCAE5"/>
+</associations>
+</Column>
+<Column name="cpfDependente" id="EEC2A096-D2C2-E42E-A4CB-033D20A917D5">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>6F06DAE5-76F8-50DE-CF72-59769F3DB79C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D78131C2-AA18-5B52-7166-2AE70AE29615" referredColumn="80C87C41-5787-E1E6-F71D-6B58938E265A"/>
+</associations>
+</Column>
+<Column name="cpfTitular3" id="39B12576-F1F8-30EB-53A3-C15C39A8D423">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>386F2E12-8BA5-64F9-F881-55BBB88E7856</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D78131C2-AA18-5B52-7166-2AE70AE29615" referredColumn="A62C3CC2-12DA-F16E-7B7F-F9BEAB3A2DB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BE08987-8812-9BDB-1157-FAA8368DFD01" name="Clientes_PK">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>A409A88F-C904-6D32-A145-D013F3FA1813</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7AC5348-C3E4-C8A4-AE84-2120EF4DB5EA"/>
+<colUsage columnID="96AE5E13-334A-3FB1-CB37-AB7D0F74048B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D34786-5C1C-D7E8-5C1B-0526BD1C69F6" name="EnderecoTitularDependente__IDX">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>11826B25-9282-A9C7-FABB-8F6CBBAA9D79</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0A589C6C-C26F-0862-29E6-AC8CBB1C0AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD2E9731-3C96-BFCF-4332-ED6BF17B5043" name="EnderecoTitularDependente__IDXv1">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CC1C689D-0E9F-56AD-3D6C-48A984D9AE6E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EEC2A096-D2C2-E42E-A4CB-033D20A917D5"/>
+<colUsage columnID="39B12576-F1F8-30EB-53A3-C15C39A8D423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CE5083A-B8E7-A649-6E06-9839B6A9F758" name="EnderecoTitularDependente__IDXv2">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-20 00:31:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CC1C689D-0E9F-56AD-3D6C-48A984D9AE6E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EEC2A096-D2C2-E42E-A4CB-033D20A917D5"/>
+<colUsage columnID="0A589C6C-C26F-0862-29E6-AC8CBB1C0AA2"/>
+<colUsage columnID="39B12576-F1F8-30EB-53A3-C15C39A8D423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC4DC9F3-16EA-0A54-1364-A08F75212636" name="Relation_8">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-19 23:58:23 UTC</createdTime>
+<generatorID>CC1C689D-0E9F-56AD-3D6C-48A984D9AE6E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC2A096-D2C2-E42E-A4CB-033D20A917D5"/>
+<colUsage columnID="0A589C6C-C26F-0862-29E6-AC8CBB1C0AA2"/>
+<colUsage columnID="39B12576-F1F8-30EB-53A3-C15C39A8D423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1110D12C-DE19-69BD-48C9-20F43AA28997" name="Relation_2">
+<createdBy>luan.galli</createdBy>
+<createdTime>2025-05-20 00:32:39 UTC</createdTime>
+<generatorID>11826B25-9282-A9C7-FABB-8F6CBBAA9D79</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A589C6C-C26F-0862-29E6-AC8CBB1C0AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
