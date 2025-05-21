@@ -30,10 +30,6 @@ Cada pasta de projeto (ex: `ProjDB-Clube`) contém os arquivos XML e de configur
 
 Para visualizar os modelos, utilize o Oracle SQL Developer Data Modeler e abra o arquivo `.dmd` principal de cada projeto (geralmente com o mesmo nome da pasta do projeto, ex: `ProjDB-Clube.dmd`).
 
-## 📄 Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
 ## 👤 Contato
 
 Luan Galli - luan.galli4@gmail.com - LinkedIn - https://www.linkedin.com/in/luangalli44/
