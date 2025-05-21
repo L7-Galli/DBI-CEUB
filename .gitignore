@@ -1,0 +1,41 @@
+# Oracle SQL Developer Data Modeler
+*.dmd.bak
+*.dmd.autosave
+*.idx
+*.rdf
+*.frame
+historico.local*
+history.local*
+*.DS_Store
+*. मोनालिसा.*
+
+# Arquivos de Log e Temporários Gerais
+*.log
+*.tmp
+*.temp
+
+# Configurações de IDEs (Exemplos, adicione as suas)
+.idea/
+.vscode/
+*.suo
+*.user
+*.netbeans/
+nbproject/private/
+build/
+dist/
+
+# Arquivos Office temporários
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Outros arquivos específicos do seu ambiente que não devem ser versionados
+# Por exemplo, se dl_settings.xml for configuração local:
+# ProjDB-Clube/dl_settings.xml
+# ClienteNormalizacao/dl_settings.xml
+# ProjDB-IMC/dl_settings.xml
+# PEDIDOS/dl_settings.xml
+
+# Se você tiver uma pasta para scripts SQL gerados que não quer versionar (geralmente se versiona)
+# output/
+# sql_generated/
