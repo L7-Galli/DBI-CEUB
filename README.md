@@ -36,4 +36,4 @@ Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](./LICE
 
 ## 👤 Contato
 
-Luan Galli - uan.galli4@gmail.com - LinkedIn - https://www.linkedin.com/in/luangalli44/
+Luan Galli - luan.galli4@gmail.com - LinkedIn - https://www.linkedin.com/in/luangalli44/
