@@ -52,7 +52,5 @@ Luan Galli - luan.galli4@gmail.com - LinkedIn - https://www.linkedin.com/in/luan
  
  [X] - Normalização (NF1, NF2 e NF3) Reforce seu entendimento das regras.
  
- [X] - Relacionamentos e cardinalidades: Estude os relacionamentos de 1-1, n-n e n-1 e correlacione com nas regras da normalização.
+ [ ] - Relacionamentos e cardinalidades
 
-
-Faltaram os nomes dos commit changes!
