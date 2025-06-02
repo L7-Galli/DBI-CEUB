@@ -16,7 +16,7 @@ Aqui está uma lista dos projetos incluídos:
 ## 🛠️ Ferramentas Utilizadas
 
 * Oracle SQL Developer Data Modeler
-* (Adicione outras ferramentas, se aplicável)
+* MySql
 
 ## 📂 Estrutura dos Projetos
 
