@@ -48,9 +48,9 @@ Luan Galli - luan.galli4@gmail.com - LinkedIn - https://www.linkedin.com/in/luan
 
 ## b) Recomendo reforçar seus estudos em:
 
- [ ] - Abstração no negócio
+ [X] - Abstração no negócio: Analise mais o negócio sem pensar na implementação física.
  
- [X] - Normalização (NF1, NF2 e NF3) Reforce seu entendimento das regras.
+ [X] - Normalização (NF1, NF2 e NF3): Reforce seu entendimento das regras, passar pelas fases é importante.
  
  [ ] - Relacionamentos e cardinalidades
 
