@@ -1,0 +1,9 @@
+CREATE DATABASE imcdBISeg
+	CHARSET = utf8
+	COLLATE =utf8_general_ci;
+USE bdContato;
+
+SHOW CHARSET;
+SHOW COLLATION;
+
+
